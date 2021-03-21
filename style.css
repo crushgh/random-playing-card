@@ -8,7 +8,7 @@ body {
   height: 100%;
   margin: 0;
 }
-.card {
+.cardContainer {
   font-family: sans-serif;
   position: relative;
   width: 105px;
@@ -18,12 +18,12 @@ body {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
-.card.spades,
-.card.clubs {
+.cardContainer.spades,
+.cardContainer.clubs {
   color: black;
 }
-.card.hearts,
-.card.diamonds {
+.cardContainer.hearts,
+.cardContainer.diamonds {
   color: red;
 }
 
@@ -46,4 +46,11 @@ body {
   top: 50%;
   transform: translateY(-50%);
   left: 25%;
+}
+
+.bal {
+   position: absolute;
+   float:left;
+   width: 100%;
+
 }
